@@ -40,6 +40,38 @@
 	"git checkout feature/Ticket220" para desplazarse
 	a ella.
 
+(09)	Desde la pestaña FileStatus de SourceTree, se ha
+	realizado un stage del archivo bitacora.txt y un
+	commit con su correspondiente descripción (Paso 09).
+
+(10) 	Desde la bash de Git, se ha ejecutado el comando
+	"git checkout develop" para moverse a la rama.
+
+(11)	Desde la bash de Git, se ha ejecutado el comando
+	"git branch feature/Ticket221" para crear la nueva
+	feature branch y, tras ello, se ha ejecutado
+	"git checkout feature/Ticket221" para moverse a ella.
+
+(13)	Desde la bash de Git, se ha ejecutado el comando	La bash de Git ha indicado un mensaje de error
+	"git checkout feature/Ticket220" para moverse a esta	indicando que se debe realizar un commit o 
+	rama.							stash de los cambios realizados en la rama 
+								feature/Ticket221 para poder moverse a la rama
+	HE REALIZADO ESTOS CAMBIOS EN feature/Ticket221 PERO	feature/Ticket220. En mi caso he pasado al paso
+	SÉ QUE TENDRÍAN QUE HABERSE REALIZADO EN 		15 directamente, pero se debería haber realizado
+	feature/Ticket220					un add sobre el archivo bitacora.txt y un commit
+								o stash sobre los cambios realizados en la rama
+								feature/Ticket221 para poder moverse a la rama
+								feature/Ticket220 y tras ello, ejecutar
+								"git checkout feature/Ticket220".
+
+(15)	Desde la pestaña FileStatus de SourceTree, se ha
+	realizado un stage del archivo bitacora.txt y un
+	commit con su correspondiente descripción (Paso 15).
+
+(16)	Desde la bash de Git, se ha ejecutado el comando	
+	"git checkout feature/Ticket221" para moverse a esta	
+	rama.
+
 (17)	En la rama feature/Ticket221 se ha editado con el Bloc
 	de notas el archivo bitacora.txt para añadir las descripciones
 	de los pasos 15 y 16 (y 13 por error ya que pensé que como daba
@@ -63,3 +95,4 @@
 	fast-forward con el contenido que hay sobre el que se ha hecho commit,
 	pues actualmente hay contenido sin hacer stage y hacerlo recursivo
 	generaría conflicto.
+
