@@ -23,3 +23,19 @@
 	contenía este commit de la rama master local a la 
 	rama master remota (con el botón Push de 
 	SourceTree).
+
+(05)	Una vez más, a través de SourceTree se ha hecho un
+	stage (add) del archivo bitacora.txt y tras ello 
+	un commit con su correspondiente descripción (Paso 
+	05) en la pestaña File Status.
+
+(06)	Esta vez a través de la bash de comandos de Git, se
+	ha ejecutado el comando "git branch develop" para 
+	crear una nueva rama.
+
+(07)	Se ha ejecutado el comando 
+	"git branch feature/Ticket220" desde la bash para 
+	crear la nueva feature branch. Tras esto, se ha
+	ejecutado el comando 
+	"git checkout feature/Ticket220" para desplazarse
+	a ella.
