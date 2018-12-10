@@ -4,5 +4,22 @@
 %% Alumno Argumosa Arroyo, Guillermo:                               %%
 %%==================================================================%%
 
- Paso   Acción                       Notas
-====== ============================ ================================
+ Paso   Acción                       				Notas
+====== ============================ 				================================
+(01)	Se ha introducido la URL
+	https://github.com/latacita/testGit2018GArgumosa
+	en SourceTree haciendo Ctrl+N previamente. Se ha
+	creado la carpeta correspondiente al proyecto en
+	el escritorio.
+
+(02)	Se ha abierto el archivo bitacora.txt con la 
+	herramienta Bloc de notas y se ha añadido mi
+	nombre y apellidos.
+
+(03)	A través de SourceTree, se ha hecho un stage del
+	archivo bitacora.txt y tras ello un commit con 
+	su correspondiente descripción en la pestaña File
+	Status. Tras esto, se ha hecho un push que 
+	contenía este commit de la rama master local a la 
+	rama master remota (con el botón Push de 
+	SourceTree).
