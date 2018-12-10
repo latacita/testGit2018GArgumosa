@@ -111,13 +111,12 @@
 (26) 	Desde el botón Merge de SourceTree, se ha seleccionado el último	Esta acción daba lugar a un conflicto
 	commit de la rama feature/Ticket221 y, con la opción "Create a new	ya que al hacer merge, había cambios
 	commit even if fast-forward is possible" activada, se ha hecho el 	realizados en bitacora.txt desde ambas
-										feature branch. Se ha solucionado abriendo
+	merge.									feature branch. Se ha solucionado abriendo
 										el archivo con el Bloc de notas y editándolo
 										de tal forma que quedaran todos los pasos explicados
 										y ordenados y, tras ello, se hizo un add del archivo
 										y un commit local con el mensaje "Paso 26".
 
-	merge.
 
 (28)	Desde la pestaña File Status de SourceTree en la rama 
 	develop se ha hecho un add del archivo bitacora.txt
@@ -136,5 +135,27 @@
 (32)	Desde la bash de Git, se ha ejecutado el comando
 	"git checkout develop bitacora.txt" para obtener el fichero
 	bitacora.txt de la rama develop.
+
+(34) 	Desde la pestaña File Status de SourceTree en la rama 
+	feature/Ticket222 se ha hecho un add del archivo bitacora.txt
+	y un commit con la descripción "Paso 34".
+
+(35) 	Desde el botón Merge de SourceTree en la rama develop, se ha seleccionado	Esta acción daba lugar a un conflicto 
+	el último commit de la rama feature/Ticket222 y, con la opción "Create a 	ya que al hacer merge, había cambios
+	new commit even if fast-forward is possible" activada, se ha hecho el 		realizados en bitacora.txt desde distintas
+	merge.										feature branch. Se ha solucionado abriendo
+											el archivo con el Bloc de notas y editándolo
+											de tal forma que quedaran todos los pasos explicados
+											y ordenados y, tras ello, se hizo un add del archivo
+											y un commit local con el mensaje "Paso 35".
+
+(36) 	Desde el botón Merge de SourceTree en la rama master, se ha seleccionado	
+	el último commit de la rama develop y, con la opción "Create a 	ya que al hacer 
+	new commit even if fast-forward is possible" activada, se ha hecho el 		
+	merge.
+
+(38)	Se han añadido todos los pasos realizados al archivo bitacora.txt, se hace un
+	add de este archivo y un commit a master con la descripción "Paso 38" y, tras ello,
+	un push de todos los cambios pendientes de la rama master local a la rama master remota.
 	
 
