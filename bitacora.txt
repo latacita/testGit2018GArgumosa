@@ -56,4 +56,18 @@
 	"git checkout feature/Ticket220" para moverse a esta	indicando que se debe realizar un commit o 
 	rama.							stash de los cambios realizados en la rama 
 								feature/Ticket221 para poder moverse a la rama
-								feature/Ticket220.
+	HE REALIZADO ESTOS CAMBIOS EN feature/Ticket221 PERO	feature/Ticket220. En mi caso he pasado al paso
+	SÉ QUE TENDRÍAN QUE HABERSE REALIZADO EN 		15 directamente, pero se debería haber realizado
+	feature/Ticket220					un add sobre el archivo bitacora.txt y un commit
+								o stash sobre los cambios realizados en la rama
+								feature/Ticket221 para poder moverse a la rama
+								feature/Ticket220 y tras ello, ejecutar
+								"git checkout feature/Ticket220".
+
+(15)	Desde la pestaña FileStatus de SourceTree, se ha
+	realizado un stage del archivo bitacora.txt y un
+	commit con su correspondiente descripción (Paso 15).
+
+(16)	Desde la bash de Git, se ha ejecutado el comando	
+	"git checkout feature/Ticket221" para moverse a esta	
+	rama.
