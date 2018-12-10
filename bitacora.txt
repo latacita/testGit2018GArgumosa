@@ -23,3 +23,116 @@
 	contenía este commit de la rama master local a la 
 	rama master remota (con el botón Push de 
 	SourceTree).
+
+(05)	Una vez más, a través de SourceTree se ha hecho un
+	stage (add) del archivo bitacora.txt y tras ello 
+	un commit con su correspondiente descripción (Paso 
+	05) en la pestaña File Status.
+
+(06)	Esta vez a través de la bash de comandos de Git, se
+	ha ejecutado el comando "git branch develop" para 
+	crear una nueva rama.
+
+(07)	Se ha ejecutado el comando 
+	"git branch feature/Ticket220" desde la bash para 
+	crear la nueva feature branch. Tras esto, se ha
+	ejecutado el comando 
+	"git checkout feature/Ticket220" para desplazarse
+	a ella.
+
+(09)	Desde la pestaña FileStatus de SourceTree, se ha
+	realizado un stage del archivo bitacora.txt y un
+	commit con su correspondiente descripción (Paso 09).
+
+(10) 	Desde la bash de Git, se ha ejecutado el comando
+	"git checkout develop" para moverse a la rama.
+
+(11)	Desde la bash de Git, se ha ejecutado el comando
+	"git branch feature/Ticket221" para crear la nueva
+	feature branch y, tras ello, se ha ejecutado
+	"git checkout feature/Ticket221" para moverse a ella.
+
+(13)	Desde la bash de Git, se ha ejecutado el comando	La bash de Git ha indicado un mensaje de error
+	"git checkout feature/Ticket220" para moverse a esta	indicando que se debe realizar un commit o 
+	rama.							stash de los cambios realizados en la rama 
+								feature/Ticket221 para poder moverse a la rama
+	HE REALIZADO ESTOS CAMBIOS EN feature/Ticket221 PERO	feature/Ticket220. En mi caso he pasado al paso
+	SÉ QUE TENDRÍAN QUE HABERSE REALIZADO EN 		15 directamente, pero se debería haber realizado
+	feature/Ticket220					un add sobre el archivo bitacora.txt y un commit
+								o stash sobre los cambios realizados en la rama
+								feature/Ticket221 para poder moverse a la rama
+								feature/Ticket220 y tras ello, ejecutar
+								"git checkout feature/Ticket220".
+
+(15)	Desde la pestaña FileStatus de SourceTree, se ha
+	realizado un stage del archivo bitacora.txt y un
+	commit con su correspondiente descripción (Paso 15).
+
+(16)	Desde la bash de Git, se ha ejecutado el comando	
+	"git checkout feature/Ticket221" para moverse a esta	
+	rama.
+
+(17)	En la rama feature/Ticket221 se ha editado con el Bloc
+	de notas el archivo bitacora.txt para añadir las descripciones
+	de los pasos 15 y 16 (y 13 por error ya que pensé que como daba
+	un fallo, no se debía tratar de hacer el cambio de rama).
+
+(18) 	Desde la pestaña File Status de SourceTree en la rama 
+	feature/Ticket221 se ha hecho un add del archivo bitacora.txt
+	y un commit con la descripción "Paso 18".
+
+(19) 	Desde la bash de Git, se ha ejecutado el comando
+	"git checkout develop" para moverse a esta rama.
+
+(20) 	Desde la bash de Git, se ha ejecutado el comando
+	"git branch feature/Ticket222" para crear la feature branch
+	correspondiente.
+
+(21)	Desde la bash de Git, se ha ejecutado el comando
+	"git checkout feature/Ticket220" para moverse a esta feature branch.
+
+(22)	La fusión de feature/Ticket220 en develop debería hacerse por
+	fast-forward con el contenido que hay sobre el que se ha hecho commit,
+	pues actualmente hay contenido sin hacer stage y hacerlo recursivo
+	generaría conflicto.
+
+(23)	Desde la pestaña File Status de SourceTree en la rama 
+	feature/Ticket220 se ha hecho un add del archivo bitacora.txt
+	y un commit con la descripción "Paso 23".
+
+(24) 	Desde la bash de Git, se ha ejecutado el comando
+	"git checkout develop" para moverse a esta rama.
+
+(25) 	Desde el botón Merge de SourceTree, se ha seleccionado el último
+	commit de la rama feature/Ticket220 y, con la opción "Create a new
+	commit even if fast-forward is possible" activada, se ha hecho el 
+	merge.
+
+(26) 	Desde el botón Merge de SourceTree, se ha seleccionado el último	Esta acción daba lugar a un conflicto
+	commit de la rama feature/Ticket221 y, con la opción "Create a new	ya que al hacer merge, había cambios
+	commit even if fast-forward is possible" activada, se ha hecho el 	realizados en bitacora.txt desde ambas
+	merge.									feature branch. Se ha solucionado abriendo
+										el archivo con el Bloc de notas y editándolo
+										de tal forma que quedaran todos los pasos explicados
+										y ordenados y, tras ello, se hizo un add del archivo
+										y un commit local con el mensaje "Paso 26".
+
+(28)	Desde la pestaña File Status de SourceTree en la rama 
+	develop se ha hecho un add del archivo bitacora.txt
+	y un commit con la descripción "Paso 28".
+
+(29)	Desde el botón Tag de SourceTree, se ha establecido la etiqueta
+	"Step29" sobre el commit "Paso 28".
+
+(30)	Desde el botón Push de SourceTree, se ha subido la rama develop
+	local a la rama develop remota con la opción "Push all tags" 
+	desactivada.
+
+(31)	Desde la bash de Git, se ha ejecutado el comando
+	"git checkout feature/Ticket222" para moverse a esta rama.
+
+(32)	Desde la bash de Git, se ha ejecutado el comando
+	"git checkout develop bitacora.txt" para obtener el fichero
+	bitacora.txt de la rama develop.
+	
+
