@@ -116,5 +116,25 @@
 										de tal forma que quedaran todos los pasos explicados
 										y ordenados y, tras ello, se hizo un add del archivo
 										y un commit local con el mensaje "Paso 26".
+
 	merge.
+
+(28)	Desde la pestaña File Status de SourceTree en la rama 
+	develop se ha hecho un add del archivo bitacora.txt
+	y un commit con la descripción "Paso 28".
+
+(29)	Desde el botón Tag de SourceTree, se ha establecido la etiqueta
+	"Step29" sobre el commit "Paso 28".
+
+(30)	Desde el botón Push de SourceTree, se ha subido la rama develop
+	local a la rama develop remota con la opción "Push all tags" 
+	desactivada.
+
+(31)	Desde la bash de Git, se ha ejecutado el comando
+	"git checkout feature/Ticket222" para moverse a esta rama.
+
+(32)	Desde la bash de Git, se ha ejecutado el comando
+	"git checkout develop bitacora.txt" para obtener el fichero
+	bitacora.txt de la rama develop.
+	
 
